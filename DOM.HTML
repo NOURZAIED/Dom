@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="DOM.css">
+    <script src="https://kit.fontawesome.com/b9a0719e01.js" crossorigin="anonymous"></script>
+    <style >
+      .red{
+        color:rgb(68, 0, 255);
+      }
+    </style>
+    <title> Shopping Cart </title>
+    
+</head>
+<body>
+    <header>
+       <h1> Shopping Cart </h1>
+    </header>
+
+    <section class="make-up">
+        <div class="ITEM">
+            <button class="delete btn">X</button>
+            <button class="btnadore"><i id="heart" class="fas fa-heart"></i></button> 
+            <img class="product1" src="fond-de-teint-liquide.jpg" >
+            <span class="description"> Liquid Foundation </span> 
+            <button class="plus-btn" type="button">+</button>
+            <span class="Quantity">1</span>
+            <button class="sustraction-btn" type="button">-</button>
+            <span class="Prix_unitaire">25</span>
+            <span class="amount">Amount(TD):</span>
+            <span class="price" id="p1">25 </span>
+        </div>
+        <br>
+        
+
+        <div class="ITEM">
+            <button class="delete btn" >X</button>
+            <button class="btnadore"><i id="heart" class="fas fa-heart"></i></button> 
+            <img class="product1" src="fond-de-teint-poudre-.jpg">
+            <span class="description">Powder Foundation </span>
+            <button class="plus-btn">+</button>
+            <p class="Quantity">1</p>
+            <button class="sustraction-btn" type="button">-</button>
+            <span class="Prix_unitaire">15</span>
+            <span class="amount">Amount(TD):</span>
+            <span class="price" id="p2">15 </span>
+        </div>
+
+         <br>
+        
+
+        <div class="ITEM">
+            <button class="delete btn">X</button>
+            <button class="btnadore"><i id="heart" class="fas fa-heart"></i></button> 
+            <img class="product1" src="lipgloss.jpg">
+            <span class="description">lipgloss </span>
+            <button class="plus-btn" type="button">+</button>
+            <span class="Quantity">1</span>
+            <button class="sustraction-btn">-</button>
+            <span class="Prix_unitaire">15</span>
+            <span class="amount">Amount(TD):</span>
+            <span class="price" id="p3">15 </span>
+
+        </div>
+
+        <br>
+        
+
+        <div class="ITEM">
+            <button class="delete btn">X</button>
+            <button class="btnadore"><i id="heart" class="fas fa-heart"></i></button> 
+            <img class="product1" src="instyle-blush-.jpg">
+            <span class="description"> Instyle-Blush </span>
+            <button class="plus-btn" type="button">+</button>
+            <span class="Quantity">1</span>
+            <button class="sustraction-btn">-</button>
+            <span class="Prix_unitaire">20</span>
+            <span class="amount">Amount(TD):</span>
+            <span class="price" id="p4">20 </span>
+
+        </div>
+
+        <br>
+        
+
+        <div class="ITEM">
+            <button class="delete btn">X</button>
+            <button class="btnadore"><i id="heart" class="fas fa-heart"></i></button> 
+            <img class="product1" src="color-revelation-nail-enamel-pt-105-033-topface.jpg">
+            <span class="description"> nailpolish </span>
+            <button class="plus-btn" type="button">+</button>
+            <span class="Quantity">1</span>
+            <button class="sustraction-btn">-</button>
+            <span class="Prix_unitaire">10</span>
+            <span class="amount">Amount(TD):</span>
+            <span class="price" id="p5">10 </span>
+
+        </div>
+
+
+
+        
+  </section>
+  <span id="TP">Total price = <span id="total-price"> 85 </span><span id="TD">TD</span>
+
+  <script src="DOM.js"></script>
+</body>
+
+</html>

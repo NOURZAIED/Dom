@@ -1,0 +1,95 @@
+body {
+    background-image: url('beige.jpg');
+    font-family:'Roboto', sans-serif;
+    font-size: larger;
+}
+
+
+h1{
+    color:#862d2db4;
+    text-align: center;
+    font-family: 'Anton',sans-serif;
+    margin: 10px!important;
+}
+
+
+.product1 {
+    width: 210px;
+    height: 130px;
+}
+
+.plus-btn,.sustraction-btn{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+
+.Quantity{
+    width: 25px;
+    height: 25px;
+}
+
+.delete-btn, .btnadore{
+    border: none;
+}
+
+
+.shopping-cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.ITEM{
+    display: flex;
+    justify-content :space-evenly;
+    background-color: rgb(255, 255, 255);
+    max-width: 700px;
+
+}
+
+.description{
+    width :110px
+}
+
+.plus-btn, .Quantity, .sustraction-btn, .delete-btn, .Prix_unitaire, .amount{
+    margin-right: 10px;
+    margin-top: 50px;
+}
+
+.amount{
+    font-weight: bold;
+    
+}
+
+i{ 
+    margin-right: 10px;
+    margin-top: 40px;
+}
+
+
+.product1, .description, .sustraction-btn,.price{
+    margin-right: 20px;
+}
+
+.description, .sustraction-btn,.price{
+    margin-top: 50px;
+}
+
+.TP {
+    background-color:  #ea9325;
+    color: white;
+    float: right;
+    margin-top: 20px;
+    margin-right: 350px;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+#total-price,#TD {
+    color: rgb(0, 0, 0);
+    background-color: #ac9474f8;
+}
+
+
